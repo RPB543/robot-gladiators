@@ -50,7 +50,7 @@ var fight = function(enemyName) {
       );
 
     // check player's health
-    if (playerHealth <=0) {
+    if (playerHealth <= 0) {
         window.alert(playerName + " has died! ");
         break;
     } else {
@@ -58,7 +58,7 @@ var fight = function(enemyName) {
     //if no (false), ask question again by running fight () again
 }
  }  
- }; for(var i = 0; i < enemyNames.length; i++) {
+ }; for (var i = 0; i < enemyNames.length; i++) {
      if (playerHealth > 0) {
          window.alert("Welcome to Robot Gladiators! Round #" + (i + 1));
     var pickedEnemyName = enemyNames[i];
